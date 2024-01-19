@@ -22,8 +22,8 @@ echo -e "    ${BLUE}take your id at @MissRose_bot,cmd (/id)${NC}"
 echo -e "  ${BLUE}Tutorial? Join in the @HadesxGroup group${NC}"
 echo -e "       ==>> CTRL + C GO TO BACK <<=="
 echo -e ""
-echo -e "            CONTOH : t.me/iHadesx"
-echo -e "         CONTOH : wa.me/6289525848306"
+echo -e "            CONTOH : t.me/dilanjaya"
+echo -e "         CONTOH : wa.me/6281329322508"
 echo -e "           ────────────────────────"
 read -e -p "Input your Bot Token : " TOKET
 read -e -p "Input your Id Telegram : " IDTELE
@@ -34,7 +34,7 @@ read -e -p "Input your Telegram : " TELE
 update_python() {
     echo "update repository python"
     apt install python3 python3-pip -y
-    wget https://raw.githubusercontent/hadesxv2/autoscript/hdx/regis.zip
+    wget https://raw.githubusercontent/minuredire/autoscript/hdx/regis.zip
     unzip regis.zip
 }
 
@@ -68,8 +68,8 @@ WantedBy=multi-user.target
 
 EOF
     cat >id <<EOF
-TELEGRAM="$TELE" #CONTOH t.me/iHadesx
-WHATSAPP="$WHSTAP"  #CONTOH wa.me/6289525848306
+TELEGRAM="$TELE" #CONTOH t.me/dilanjaya
+WHATSAPP="$WHSTAP"  #CONTOH wa.me/6281329322508
 EOF
     cat >regis/var.txt <<EOF
 BOT_TOKEN="$TOKET"
